@@ -63,16 +63,16 @@ public class DB_Worker
             Statement statement = connection.createStatement();
             ResultSet result = statement.executeQuery(query);
             boolean temp = false;
-            while (result.next())
+            while ((result.next()))
             {
-                firstname = result.getString(2);
-                lastname = result.getString(3);
                 username = result.getString(4);
                 pass = result.getString(5);
-                address = result.getString(6);
                 if ((username.equals(login))&&(pass.equals(password)))
                 {
                     temp = true;
+                    firstname = result.getString(2);
+                    lastname = result.getString(3);
+                    address = result.getString(6);
                 }
             }
             if (temp == false)
