@@ -2,18 +2,15 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="Authorization:war exploded" />
+      <artifact name="login_window_fix:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8019fbc1-9045-47c6-8d3c-275d208e6ebd" name="Default" comment="" />
+    <list default="true" id="47fbe5ea-7eeb-4da7-8535-734844f5e8bb" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -44,7 +41,7 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectId" id="1iFEP2Oo9qb0FDai35YPuJz82nd" />
+  <component name="ProjectId" id="1iNmJxAzoKAnPDPtASszFX0PhxR" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -55,8 +52,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="js.eslint.eslintPackage" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-8.0.18.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../registration" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -66,149 +62,26 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Hp\IdeaProjects\login_window_fix\web" />
+    </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="EXTRA_OPTIONS" value="" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <Java />
-      <Profilers>
-        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
-        <option name="GAPID_ENABLED" value="false" />
-        <option name="GAPID_DISABLE_PCS" value="false" />
-        <option name="SUPPORT_LIB_ENABLED" value="true" />
-        <option name="INSTRUMENTATION_ENABLED" value="true" />
-      </Profilers>
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
-      <method />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
-      <setting name="vmparams" value="" />
-      <setting name="cmdLine" value="run-app" />
-      <setting name="passParentEnv" value="true" />
-      <setting name="grailsApplicationRoot" value="" />
-      <setting name="launchBrowser" value="true" />
-      <setting name="launchBrowserUrl" value="" />
-      <setting name="depsClasspath" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <module name="" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="TestNG">
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Tomcat 8.5.58" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.58" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/Authorization_war_exploded/" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/login_window_fix_war_exploded/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="Authorization:war exploded">
+        <artifact name="login_window_fix:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/Authorization_war_exploded" />
+            <option name="CONTEXT_PATH" value="/login_window_fix_war_exploded" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_lab14_3_2" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_login_window_fix" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -216,7 +89,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="51515" />
+        <option name="DEBUG_PORT" value="54742" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -266,27 +139,9 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="Authorization:war exploded" />
+          <artifact name="login_window_fix:war exploded" />
         </option>
       </method>
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file enabled="true" id="idea.log" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method v="2" />
     </configuration>
   </component>
   <component name="ServiceViewManager">
@@ -298,6 +153,11 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -311,15 +171,14 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8019fbc1-9045-47c6-8d3c-275d208e6ebd" name="Default" comment="" />
-      <created>1484917221498</created>
+      <changelist id="47fbe5ea-7eeb-4da7-8535-734844f5e8bb" name="Default Changelist" comment="" />
+      <created>1601756355202</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1484917221498</updated>
-      <workItem from="1484917225667" duration="5106000" />
-      <workItem from="1601494917296" duration="2847000" />
-      <workItem from="1601576928266" duration="86000" />
-      <workItem from="1601577111675" duration="3183000" />
+      <updated>1601756355202</updated>
+      <workItem from="1601756362686" duration="986000" />
+      <workItem from="1601757648365" duration="1797000" />
+      <workItem from="1601760067916" duration="1589000" />
     </task>
     <servers />
   </component>
@@ -327,109 +186,69 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="275" y="22" key="#Project_Structure" timestamp="1601495170026">
+    <state x="274" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601760709143">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="22" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1601495170026" />
-    <state x="274" y="11" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601579830746">
+    <state x="274" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1601760709143" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1601760797088">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="274" y="11" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1601579830746" />
-    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1601496548440">
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601760797088" />
+    <state width="905" height="179" key="GridCell.Tab.0.bottom" timestamp="1601761717702">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1601496548440" />
-    <state x="275" y="22" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1601495061616">
+    <state width="905" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601761717702" />
+    <state width="905" height="179" key="GridCell.Tab.0.center" timestamp="1601761717702">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="22" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1366.728@0.0.1366.728" timestamp="1601495061616" />
-    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601579714469">
+    <state width="905" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601761717702" />
+    <state width="905" height="179" key="GridCell.Tab.0.left" timestamp="1601761717702">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1601579714469" />
-    <state x="437" y="79" key="DetectedRootsChooserDialog" timestamp="1601495203767">
+    <state width="905" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601761717702" />
+    <state width="905" height="179" key="GridCell.Tab.0.right" timestamp="1601761717702">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="437" y="79" key="DetectedRootsChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1601495203767" />
-    <state x="389" y="105" key="FileChooserDialogImpl" timestamp="1601579522116">
+    <state width="905" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601761717702" />
+    <state width="905" height="179" key="GridCell.Tab.1.bottom" timestamp="1601761717703">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="389" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601579522116" />
-    <state width="905" height="257" key="GridCell.Tab.0.bottom" timestamp="1601497846740">
+    <state width="905" height="179" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601761717703" />
+    <state width="905" height="179" key="GridCell.Tab.1.center" timestamp="1601761717703">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="257" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601497846740" />
-    <state width="905" height="257" key="GridCell.Tab.0.center" timestamp="1601497846740">
+    <state width="905" height="179" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1601761717703" />
+    <state width="905" height="179" key="GridCell.Tab.1.left" timestamp="1601761717703">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="257" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601497846740" />
-    <state width="905" height="257" key="GridCell.Tab.0.left" timestamp="1601497846740">
+    <state width="905" height="179" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1601761717703" />
+    <state width="905" height="179" key="GridCell.Tab.1.right" timestamp="1601761717703">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="257" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601497846740" />
-    <state width="905" height="257" key="GridCell.Tab.0.right" timestamp="1601497846740">
+    <state width="905" height="179" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1601761717703" />
+    <state width="905" height="179" key="GridCell.Tab.2.bottom" timestamp="1601761717704">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="257" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601497846740" />
-    <state width="905" height="257" key="GridCell.Tab.1.bottom" timestamp="1601497846741">
+    <state width="905" height="179" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601761717704" />
+    <state width="905" height="179" key="GridCell.Tab.2.center" timestamp="1601761717703">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="257" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601497846741" />
-    <state width="905" height="257" key="GridCell.Tab.1.center" timestamp="1601497846740">
+    <state width="905" height="179" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1601761717703" />
+    <state width="905" height="179" key="GridCell.Tab.2.left" timestamp="1601761717703">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="257" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1601497846740" />
-    <state width="905" height="257" key="GridCell.Tab.1.left" timestamp="1601497846740">
+    <state width="905" height="179" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1601761717703" />
+    <state width="905" height="179" key="GridCell.Tab.2.right" timestamp="1601761717703">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="257" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1601497846740" />
-    <state width="905" height="257" key="GridCell.Tab.1.right" timestamp="1601497846740">
+    <state width="905" height="179" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1601761717703" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1601757854015">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="257" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1601497846740" />
-    <state width="905" height="257" key="GridCell.Tab.2.bottom" timestamp="1601497846741">
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1601757854015" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1601760074141">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="257" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601497846741" />
-    <state width="905" height="257" key="GridCell.Tab.2.center" timestamp="1601497846741">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="905" height="257" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1601497846741" />
-    <state width="905" height="257" key="GridCell.Tab.2.left" timestamp="1601497846741">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="905" height="257" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1601497846741" />
-    <state width="905" height="257" key="GridCell.Tab.2.right" timestamp="1601497846741">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="905" height="257" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1601497846741" />
-    <state width="905" height="257" key="GridCell.Tab.3.bottom" timestamp="1601497846742">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="905" height="257" key="GridCell.Tab.3.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601497846742" />
-    <state width="905" height="257" key="GridCell.Tab.3.center" timestamp="1601497846742">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="905" height="257" key="GridCell.Tab.3.center/0.0.1366.728@0.0.1366.728" timestamp="1601497846742" />
-    <state width="905" height="257" key="GridCell.Tab.3.left" timestamp="1601497846742">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="905" height="257" key="GridCell.Tab.3.left/0.0.1366.728@0.0.1366.728" timestamp="1601497846742" />
-    <state width="905" height="257" key="GridCell.Tab.3.right" timestamp="1601497846742">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="905" height="257" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1601497846742" />
-    <state x="163" y="0" key="SettingsEditor" timestamp="1601495228383">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1601495228383" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1601577189172">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1601577189172" />
-  </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1601760074141" />
   </component>
 </project>
