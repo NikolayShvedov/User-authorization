@@ -34,7 +34,6 @@ public class LoginServlet extends HttpServlet {
             if (loginWindowDao.authorization(loginBean)) {
                 response.sendRedirect("home?login="+ login);
             } else {
-                request.setAttribute("error", "Unknown user, please try again");
                 request.getRequestDispatcher("index.jsp").forward(request, response);
             }
         } catch (ClassNotFoundException | IOException | ServletException e) {

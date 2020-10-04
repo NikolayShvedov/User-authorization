@@ -9,31 +9,45 @@
 <html>
 <head>
     <meta charset="ISO-8859-1">
-    <title>Insert title here</title>
+    <title>Authorization User</title>
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous">
 </head>
 <body>
-<div align="center">
-    <form action="registration" method="post">
+
+<div class="container col-md-8 col-md-offset-3" style="overflow: auto">
     <h1>Окно регистрации пользователей</h1>
-        <table style="with: 80%">
-            <tr>
-                <td>Фамилия</td>
-                <td><input type="text" name="first_name" /></td>
-            </tr>
-            <tr>
-                <td>Имя</td>
-                <td><input type="text" name="last_name" /></td>
-            </tr>
-            <tr>
-                <td>Логин</td>
-                <td><input type="text" name="login" /></td>
-            </tr>
-            <tr>
-                <td>Пароль</td>
-                <td><input type="password" name="password" /></td>
-            </tr>
-        </table>
-        <input type="submit" value="Зарегистрировать меня" />
+    <form action="registration" method="post">
+
+        <div class="form-group">
+            <%--@declare id="uname"--%>
+            <label for="uname">Фамилия:</label> <input type="text"
+                                                       class="form-control" id="first_name" placeholder="First Name User"
+                                                       name="first_name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="uname">Имя:</label> <input type="text"
+                                                   class="form-control" id="last_name" placeholder="Last Name User"
+                                                   name="last_name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="uname">Логин:</label> <input type="password"
+                                                     class="form-control" id="login" placeholder="Login"
+                                                     name="login" required>
+        </div>
+
+        <div class="form-group">
+            <label for="uname">Пароль:</label> <input type="password"
+                                                      class="form-control" id="password" placeholder="Password"
+                                                      name="password" required>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Зарегистрировать меня</button>
+
     </form>
 </div>
 </body>

@@ -8,12 +8,19 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <title>Authorization User</title>
+    <meta charset="ISO-8859-1">
+    <title>Authorization User</title>
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous">
 </head>
 <body>
-<h1>Выберите необходимое действие:</h1>
-<a href="registration" style="background:#f0efef;border-radius: 5px;border: 1px solid#000;padding: 2px 5px;color:#000;text-decoration: none;">Зарегистрироваться</a>
-<a href="login" style="background:#f0efef;border-radius: 5px;border: 1px solid#000;padding: 2px 5px;color:#000;text-decoration: none;">Войти в систему</a>
+
+<div class="container col-md-8 col-md-offset-3" style="overflow: auto">
+    <h1>Выберите необходимое действие:</h1>
+    <a href="registration" class="btn btn-primary">Зарегистрироваться</a>
+    <a href="login" class="btn btn-primary">Войти в систему</a>
+</div>
 </body>
 </html>

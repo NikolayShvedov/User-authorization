@@ -8,17 +8,36 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
+    <meta charset="ISO-8859-1">
     <title>Authorization User</title>
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous">
 </head>
 <body>
-<form action="login" method="post">
+
+<div class="container col-md-8 col-md-offset-3" style="overflow: auto">
     <h1>Окно авторизации пользователей</h1>
-    <p><input type="text" name="login" value="" placeholder="Login"></p>
-    <p><input type="password" name="password" value="" placeholder="Password"></p>
-    </p>
-    <p><input type="submit" value="Войти"></p>
-    <span class="error">${error}</span>
-</form>
+    <form action="login" method="post">
+
+        <div class="form-group">
+            <%--@declare id="uname"--%>
+                <label for="uname">Логин:</label> <input type="text"
+                                                         class="form-control" id="login" placeholder="Login User"
+                                                         name="login" required>
+        </div>
+
+        <div class="form-group">
+            <label for="uname">Пароль:</label> <input type="password"
+                                                        class="form-control" id="password" placeholder="Password"
+                                                        name="password" required>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Войти</button>
+
+    </form>
+</div>
 <div id="res"></div>
 </body>
 </html>
