@@ -21,25 +21,6 @@ public class LoginWindowDao {
     private String USERNAME = "root";
     private String PASSWORD = "root";
 
-    public boolean authorization(LoginBean loginBean) throws ClassNotFoundException {
-        boolean status = false;
-
-        Class.forName("com.mysql.jdbc.Driver");
-
-        try (Connection connection = DriverManager.getConnection(URL, USERNAME, PASSWORD);
-
-             PreparedStatement preparedStatement = connection.prepareStatement("SELECT * FROM users WHERE login = ? AND password = ? ")) {
-            preparedStatement.setString(1, loginBean.getLogin());
-            preparedStatement.setString(2, loginBean.getPassword());
-            System.out.println(preparedStatement);
-            ResultSet result = preparedStatement.executeQuery();
-            status = result.next();
-        } catch (SQLException e) {
-            printSQLException(e);
-        }
-        return status;
-    }
-
     public int registration(RegistrationBean registration) throws ClassNotFoundException {
         String INSERT_USERS_SQL = "INSERT INTO users (first_name, last_name, login, password) VALUES (?, ?, ?, ?);";
 
