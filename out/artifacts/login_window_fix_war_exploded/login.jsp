@@ -19,7 +19,7 @@
 
 <div class="container col-md-8 col-md-offset-3" style="overflow: auto">
     <h1>Окно авторизации пользователей</h1>
-    <form action="login" method="post">
+    <form action="home.jsp">
 
         <div class="form-group">
             <%--@declare id="uname"--%>

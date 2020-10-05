@@ -23,22 +23,4 @@ public class LoginServlet extends HttpServlet {
         request.getRequestDispatcher("login.jsp").forward(request, response);
     }
 
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) {
-
-        String login = request.getParameter("login");
-        String password = request.getParameter("password");
-        LoginBean loginBean = new LoginBean();
-        loginBean.setLogin(login);
-        loginBean.setPassword(password);
-        try {
-            if (loginWindowDao.authorization(loginBean)) {
-                response.sendRedirect("home?login="+ login);
-            } else {
-                request.getRequestDispatcher("index.jsp").forward(request, response);
-            }
-        } catch (ClassNotFoundException | IOException | ServletException e) {
-            e.printStackTrace();
-        }
-    }
-
 }
