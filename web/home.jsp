@@ -46,7 +46,7 @@
         while (users_list.next()) {
 
             if ((login_user.equals(users_list.getString("login")))&(password_user.equals(users_list.getString("password")))) {
-                String user_name = "Здравствуйте, " + users_list.getString("first_name") + " " + users_list.getString("last_name");
+                String user_name = "Здравствуйте, " + users_list.getString("last_name") + " " + users_list.getString("first_name");
 %> <%=user_name %> <%
             check = true;
         }

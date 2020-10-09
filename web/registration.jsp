@@ -23,25 +23,25 @@
 
         <div class="form-group">
             <%--@declare id="uname"--%>
-            <label for="uname">Фамилия:</label> <input type="text"
+            <label for="uname">Имя:</label> <input type="text"
                                                        class="form-control" id="first_name" placeholder="First Name User"
                                                        name="first_name" required>
         </div>
 
         <div class="form-group">
-            <label for="uname">Имя:</label> <input type="text"
+            <label for="uname">Фамилия:</label> <input type="text"
                                                    class="form-control" id="last_name" placeholder="Last Name User"
                                                    name="last_name" required>
         </div>
 
         <div class="form-group">
-            <label for="uname">Логин:</label> <input type="password"
+            <label for="uname">Логин:</label> <input type="text"
                                                      class="form-control" id="login" placeholder="Login"
                                                      name="login" required>
         </div>
 
         <div class="form-group">
-            <label for="uname">Пароль:</label> <input type="text"
+            <label for="uname">Пароль:</label> <input type="password"
                                                       class="form-control" id="password" placeholder="Password"
                                                       name="password" required>
         </div>
